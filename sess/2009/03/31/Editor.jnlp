@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jnlp
     spec="1.0+"
-    codebase="http://smp.sfc.keio.ac.jp/sess/2009/03/31"
+    codebase="http://sess2009.defrag.works/sess/2009/03/31"
     href="Editor.jnlp">
   <information>
     <title>KantanEditor</title>
     <vendor>Community Management Research Project, KEIO University, Japan</vendor>
     <homepage href="http://smp.sfc.keio.ac.jp/">
     </homepage>
-    
+
     <!--
     <icon href="reader.gif" kind="default">
     </icon>
@@ -17,9 +17,9 @@
     <icon href="reader.gif" kind="shortcut">
     </icon>
     -->
-    
+
     <update check="background" policy="prompt-update"/>
-    
+
       <related-content href="LICENSE.txt">
         <title>SMP's License</title>
         <description>Apache License, Version 2</description>
@@ -44,7 +44,7 @@
   <resources>
     <j2se version="1.5+" max-heap-size="812m" initial-heap-size="32m" java-vm-args="-Dswing.aatext=true -Dawt.useSystemAAFontSettings=on"/>
 
-    
+
 <jar href="Editor-1.0-SNAPSHOT.jar" main="true"/>
 <jar href="sqs-util-1.3.26.jar"/>
 <jar href="log4j-1.2.12.jar"/>
